@@ -1,0 +1,18 @@
+{
+    "name": "lavoiesl/php-abstract-structure",
+    "description": "Basic data structure with public properties while validating data type.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lavoiesl\\AbstractStructure\\": "src/",
+            "Lavoiesl\\AbstractStructure\\Test\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sébastien Lavoie",
+            "email": "seb@wemakecustom.com"
+        }
+    ]
+}
