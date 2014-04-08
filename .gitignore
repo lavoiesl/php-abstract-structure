@@ -1,4 +1,6 @@
 /codeCoverage
 /composer.lock
 /phpunit.xml
+/coverage.clover
+/ocular.phar
 /vendor

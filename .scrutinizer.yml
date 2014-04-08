@@ -1,3 +1,8 @@
+filter:
+    excluded_paths:
+        - 'vendor/*'
+        - 'tests/*'
+
 tools:
     external_code_coverage:
         timeout: 700
@@ -8,20 +13,14 @@ tools:
     php_code_sniffer:
         enabled: true
 
-
     php_cs_fixer:
         enabled: true
 
     php_hhvm:
         enabled: true
-        config:
-            use_undeclared_constant:  false
 
     php_mess_detector:
         enabled: true
-        config:
-            controversial_rules:
-                superglobals: false
 
     php_pdepend:
         enabled: true
